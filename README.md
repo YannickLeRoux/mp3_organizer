@@ -7,6 +7,6 @@ Opening a folder, drag and drop etc etc were taking to much precious time.
 Then I met Python so I decided to fix this problem.
 
 Now this script will move each mp3 to the folder that match its 'genre' ID3 Tag after confirming that 
-you want to move it or send it to the trasj, or dont touch
+you want to move it or send it to the trash, or just dont touch it.
 
 I'm going to continue adding more functionlity to it

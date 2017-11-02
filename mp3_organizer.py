@@ -21,8 +21,12 @@ chillout = "/Users/yannickleroux/Music/MUSIC/AMBIANCE/Chill\ Out\
  2017/".replace('\\', '')
 
 discoedits = "/Users/yannickleroux/Music/MUSIC/70\'s\ 80\'s/DISCO/DISCO\
- EDITS/" .replace('\\', '')
+ EDITS/".replace('\\', '')
 
+dancefloor = "/Users/yannickleroux/Music/MUSIC/DANCE\ HOUSE\ ELECTRO/2017\
+ Download/".replace('\\', '')
+
+acapella = "/Users/yannickleroux/Music/MUSIC/ACAPELLAS/".replace('\\','')
 
 # create a list of all files in the download folder
 files = os.listdir(file_path)
@@ -71,5 +75,11 @@ for f in files:
 
         elif genre == 'Chill Out':
             move_file(f,chillout)
+
+        elif genre =='Dance' or genre =='Pop':
+            move_file(f,dancefloor)
+
+        elif genre =='Acapella':
+            move_file(f,acapella)
 
 
